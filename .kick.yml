@@ -1,0 +1,8 @@
+version: 1
+from: "continue/kickstart-flavor:gaia"
+apache_www_root: "/opt/www"
+apache_fallback_rescource: "/index.html"
+command:
+  init:
+    - "sudo service apache2 start"
+    
